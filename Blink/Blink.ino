@@ -13,8 +13,8 @@ void setup() {
 void loop() {
   digitalWrite(ledRojo, HIGH);      // turn the red LED on (HIGH is the voltage level)
   digitalWrite(ledAzul, LOW);       // turn the blue LED off (LOW is the voltage level)
-  delay(1000);                      // wait for a second
+  delay(500);                      // wait for a second
   digitalWrite(ledRojo, LOW);       // turn the red LED off (LOW is the voltage level)
   digitalWrite(ledAzul, HIGH);      // turn the blue LED on (HIGH is the voltage level)
-  delay(1000);                      // wait for a second
+  delay(500);                      // wait for a second
 }
