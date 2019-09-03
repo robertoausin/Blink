@@ -1,6 +1,6 @@
 // Parpadeo 1 LED //
 
-#define ledRojo 2
+#define ledRojo 4
 
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
